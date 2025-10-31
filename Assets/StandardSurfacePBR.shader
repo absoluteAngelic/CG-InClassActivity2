@@ -4,7 +4,7 @@ Shader "StandardSurfacePBR"
     {
         _Color("Color", Color) = (1,1,1,1)   // Base color property
         _MetallicTex("Metallic (R)", 2D) = "white" {} // Texture for metallic
-        _Metallic("Metallic", Range(0.0, 1.0)) = 0.0  // Metallic value property
+        _Metallic("Metallic", Range(0.0, 10.0)) = 0.0  // Metallic value property
         _Smoothness("Smoothness", Range(0.0, 1.0)) = 0.5 // Smoothness property
         _MainTex("Base Texture", 2D) = "white" {}  // Albedo texture (optional)
     }
